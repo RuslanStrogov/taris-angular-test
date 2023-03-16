@@ -5,24 +5,18 @@ import { map } from 'rxjs/operators';
 
 @Injectable()
 export class ImusService {
-
-  // geoItem: GeoItem;
   private url: string = '../assets/geo.json';
   // private url: string = 'http://backend.imus.city/api/geojson/geo';
 
-  constructor(
-    private http: HttpClient,
-    ) {}
+  constructor(private http: HttpClient) {}
 
-    // getGeo(): Observable<GeoItem[]> {
- getGeo(): Observable<any[]> {
+  getGeo(): Observable<any[]> {
     return this.http
       .get(this.url, {
         headers: {
-          'Access-Control-Allow-Origin': '*'
-        }
+          'Access-Control-Allow-Origin': '*',
+        },
       })
       .pipe(map((res: any) => res));
   }
-
 }

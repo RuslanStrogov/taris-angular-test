@@ -1,0 +1,3 @@
+<div id="map" class="map"></div>
+
+<app-auto-refresh [ngClass]="{ hidden: !timerHidden }" (refresh)="addFeatures()" [seconds]="timerSeconds" [autoStart]="true"></app-auto-refresh>
