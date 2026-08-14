@@ -1,27 +1,66 @@
-# TarisAngularOl
+# 🎯 Taris Angular Test
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.3.
+> Тестовое задание на Angular 15 с компонентами и сервисами
 
-## Development server
+![Angular](https://img.shields.io/badge/Angular-15.2-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 📋 О проекте
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Тестовое задание — Angular 15 SPA с компонентной архитектурой и сервисами. Демонстрирует:
+- 📦 Компоненты Angular
+- 🔧 Сервисы с бизнес-логикой
+- 🧪 Юнит-тесты (Jasmine + Karma)
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Быстрый старт
 
-## Running unit tests
+```bash
+# Установка зависимостей
+npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Запуск dev-сервера
+ng serve          # или: npm start
 
-## Running end-to-end tests
+# Сборка
+ng build          # или: npm run build
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Тесты
+ng test           # или: npm test
+```
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🏗 Стек
+
+| Технология | Версия |
+|-----------|--------|
+| Angular | 15.2.x |
+| TypeScript | 4.9.x |
+| RxJS | ~7.8.x |
+| Karma + Jasmine | тесты |
+
+---
+
+## 📁 Структура
+
+```
+src/
+├── app/
+│   ├── components/      # UI-компоненты
+│   ├── services/        # Сервисы
+│   ├── app.module.ts
+│   ├── app.component.ts
+│   └── app.component.html
+├── assets/
+└── index.html
+```
+
+---
+
+## 📄 Лицензия
+
+Тестовое задание — для ознакомления.
